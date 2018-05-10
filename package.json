@@ -1,0 +1,27 @@
+{
+  "name": "vendor-trash",
+  "version": "0.0.1",
+  "description": "Become a trash vendor.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thewatcheruatu/vendor-trash.git"
+  },
+  "author": "Justin Garrett Blum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thewatcheruatu/trash-vendor/issues"
+  },
+  "homepage": "https://github.com/thewatcheruatu/trash-vendor#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-redis": "^3.3.3",
+    "cron": "^1.3.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "redis": "^2.8.0"
+  }
+}
